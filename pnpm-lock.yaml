@@ -1,9 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@blocksuite/blocks': 0.3.0-alpha.16
-  '@blocksuite/editor': 0.3.0-alpha.16
-  '@blocksuite/store': 0.3.0-alpha.16
+  '@blocksuite/blocks': 0.3.0-20221220184038-c04ca97
+  '@blocksuite/editor': 0.3.0-20221220184038-c04ca97
+  '@blocksuite/store': 0.3.0-20221220184038-c04ca97
   '@next/font': 13.0.7
   '@types/node': 18.11.17
   '@types/react': 18.0.26
@@ -14,9 +14,9 @@ specifiers:
   typescript: 4.9.4
 
 dependencies:
-  '@blocksuite/blocks': 0.3.0-alpha.16
-  '@blocksuite/editor': 0.3.0-alpha.16
-  '@blocksuite/store': 0.3.0-alpha.16
+  '@blocksuite/blocks': 0.3.0-20221220184038-c04ca97
+  '@blocksuite/editor': 0.3.0-20221220184038-c04ca97
+  '@blocksuite/store': 0.3.0-20221220184038-c04ca97
   '@next/font': 13.0.7
   '@types/node': 18.11.17
   '@types/react': 18.0.26
@@ -28,12 +28,11 @@ dependencies:
 
 packages:
 
-  /@blocksuite/blocks/0.3.0-alpha.16:
-    resolution: {integrity: sha512-Nody7ZjoKgGZXtFd8L68GRW2TSi5mWHpT8htlWAehojLYAp0B9cmoM+5iF/iExAiVmCRuLzWN1nFiYmFDwGO/A==}
+  /@blocksuite/blocks/0.3.0-20221220184038-c04ca97:
+    resolution: {integrity: sha512-Rqai0/Nbb2kSA96GariXGfZQtoO4y1dYmoilGkTeTlorEl7CG644IIv9F9OHQ0SO+dmH9XovPAKpJRtuRMT+jQ==}
     dependencies:
-      '@blocksuite/store': 0.3.0-alpha.16
+      '@blocksuite/store': 0.3.0-20221220184038-c04ca97
       '@tldraw/intersect': 1.8.0
-      '@tldraw/vec': 1.8.0
       highlight.js: 11.7.0
       hotkeys-js: 3.10.1
       lit: 2.5.0
@@ -46,11 +45,11 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@blocksuite/editor/0.3.0-alpha.16:
-    resolution: {integrity: sha512-IXFXHAcrR+i6tAbnHX92dsDmurPP6835Fu+3h3H8+/dDnArFQzSU1B7VTgDkA/nSEr6Yy0jFCWvUkiZbyVgxUQ==}
+  /@blocksuite/editor/0.3.0-20221220184038-c04ca97:
+    resolution: {integrity: sha512-pa5JjozFFHpsaCSGV1BAlFwIhT5Ln50K6h9kn6BkTvD0U6jgrt+a19Ms+lJSsH8dFikke3dHpalmK+KoH84kkg==}
     dependencies:
-      '@blocksuite/blocks': 0.3.0-alpha.16
-      '@blocksuite/store': 0.3.0-alpha.16
+      '@blocksuite/blocks': 0.3.0-20221220184038-c04ca97
+      '@blocksuite/store': 0.3.0-20221220184038-c04ca97
       lit: 2.5.0
       marked: 4.2.4
       turndown: 7.1.1
@@ -60,9 +59,11 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@blocksuite/store/0.3.0-alpha.16:
-    resolution: {integrity: sha512-4kTqpsA0uvW6dDy7012Dk8oObTMbpmkVz/kmX/GA0t8AcRo+IHV+5hdv+MyBnxjGf0y4KVccrQjMoogDxC7YIA==}
+  /@blocksuite/store/0.3.0-20221220184038-c04ca97:
+    resolution: {integrity: sha512-PXJcA3ls+pi02IXh5LcF7AqMC/0B+QyUErBncJUXBtJ+39ZPXS/7A+a0zmV0PRHW3LUs8VIj7JSrmAJd/bVfJQ==}
     dependencies:
+      '@types/flexsearch': 0.7.3
+      '@types/quill': 1.3.10
       buffer: 6.0.3
       flexsearch: 0.7.21
       idb-keyval: 6.2.0
@@ -224,12 +225,22 @@ packages:
     resolution: {integrity: sha512-GiS5Df3CzXY/fPBFcM0CKFERZfI4Cg1X33VPZX+NLo7Fwm/h9zu/aU24N1mG75Q9LuMnwKm7woxKr8BiUXGYCg==}
     dev: false
 
+  /@types/flexsearch/0.7.3:
+    resolution: {integrity: sha512-HXwADeHEP4exXkCIwy2n1+i0f1ilP1ETQOH5KDOugjkTFZPntWo0Gr8stZOaebkxsdx+k0X/K6obU/+it07ocg==}
+    dev: false
+
   /@types/node/18.11.17:
     resolution: {integrity: sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==}
     dev: false
 
   /@types/prop-types/15.7.5:
     resolution: {integrity: sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==}
+    dev: false
+
+  /@types/quill/1.3.10:
+    resolution: {integrity: sha512-IhW3fPW+bkt9MLNlycw8u8fWb7oO7W5URC9MfZYHBlA24rex9rs23D5DETChu1zvgVdc5ka64ICjJOgQMr6Shw==}
+    dependencies:
+      parchment: 1.1.4
     dev: false
 
   /@types/react-dom/18.0.9:

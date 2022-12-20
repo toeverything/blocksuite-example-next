@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@blocksuite/blocks": "0.3.0-alpha.16",
-    "@blocksuite/editor": "0.3.0-alpha.16",
-    "@blocksuite/store": "0.3.0-alpha.16",
+    "@blocksuite/blocks": "0.3.0-20221220184038-c04ca97",
+    "@blocksuite/editor": "0.3.0-20221220184038-c04ca97",
+    "@blocksuite/store": "0.3.0-20221220184038-c04ca97",
     "@next/font": "13.0.7",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
