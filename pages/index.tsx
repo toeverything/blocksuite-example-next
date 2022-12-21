@@ -1,7 +1,7 @@
 import Head from 'next/head';
 
 import { Workspace } from '@blocksuite/store';
-// import "@blocksuite/blocks";
+import { createEvent } from "@blocksuite/blocks/std";
 // import "@blocksuite/editor";
 // import "@blocksuite/blocks/style";
 // import { createEditor, createDebugMenu, BlockSchema } from "@blocksuite/editor";
@@ -18,6 +18,15 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <button onClick={() => {
+        window.dispatchEvent(
+          createEvent('affine.switch-mouse-mode', {
+            type: 'default'
+          })
+        )
+      }}>
+
+      </button>
     </>
   );
 }

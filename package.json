@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@blocksuite/blocks": "0.3.0-20221220184038-c04ca97",
-    "@blocksuite/editor": "0.3.0-20221220184038-c04ca97",
-    "@blocksuite/store": "0.3.0-20221220184038-c04ca97",
+    "@blocksuite/blocks": "0.3.0-20221221203131-25ad8b6",
+    "@blocksuite/editor": "0.3.0-20221221203131-25ad8b6",
+    "@blocksuite/store": "0.3.0-20221221203131-25ad8b6",
     "@next/font": "13.0.7",
     "@types/node": "18.11.17",
     "@types/react": "18.0.26",
@@ -20,5 +20,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
+  },
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.0.7"
   }
 }
