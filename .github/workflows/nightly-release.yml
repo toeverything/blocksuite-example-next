@@ -3,7 +3,7 @@ name: Nightly Release Build Test
 on:
   schedule:
     # At 00:05 of everyday
-    - cron: '0 10 * * *'
+    # - cron: '0 10 * * *'
   workflow_dispatch:
 
 jobs:
